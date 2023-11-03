@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "biome": "yarn dlx @biomejs/biome check --apply"
+    "biome": "biome format --write ./src && biome lint ./src"
   },
   "keywords": [],
   "author": "",
