@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "biome": "yarn dlx @biomejs/biome check --apply"
   },
   "keywords": [],
   "author": "",
